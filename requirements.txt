@@ -5,7 +5,6 @@ Flask-Script==0.5.3
 Flask-WTF==0.8.3
 FlaskEx==0.0.17
 Jinja2==2.6
--e git+git@github.com:vamf12/Rigveda-Wiki-Mirror.git@d3411db8f69c75fcae1373af64b00eed511afa2b#egg=Rigveda_Wiki_Mirror-dev
 SQLAlchemy==0.8.0
 WTForms==1.0.3
 Werkzeug==0.8.3

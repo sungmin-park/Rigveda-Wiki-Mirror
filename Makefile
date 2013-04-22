@@ -1,5 +1,5 @@
 requirements.txt: setup
-	pip freeze > requirements.txt
+	pip freeze | grep -v 'vamf12/Rigveda-Wiki-Mirror.git' > requirements.txt
 setup:
 	python setup.py develop
 
