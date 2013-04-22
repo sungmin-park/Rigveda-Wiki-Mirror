@@ -1,0 +1,19 @@
+Flask==0.9
+Flask-DebugToolbar==0.8.0
+Flask-SQLAlchemy==0.16
+Flask-Script==0.5.3
+Flask-WTF==0.8.3
+FlaskEx==0.0.17
+Jinja2==2.6
+-e git+git@github.com:vamf12/Rigveda-Wiki-Mirror.git@d3411db8f69c75fcae1373af64b00eed511afa2b#egg=Rigveda_Wiki_Mirror-dev
+SQLAlchemy==0.8.0
+WTForms==1.0.3
+Werkzeug==0.8.3
+blinker==1.2
+facebook-sdk==0.4.0
+iso8601==0.1.4
+itsdangerous==0.17
+pyjade==2.0.1b
+pytz==2013b
+uWSGI==1.9.6
+wsgiref==0.1.2
