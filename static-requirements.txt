@@ -1,0 +1,2 @@
+https://github.com/surfly/gevent/tarball/1.0rc2#egg=gevent-1.0dev
+-e .

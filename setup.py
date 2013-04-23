@@ -11,6 +11,10 @@ setup(
     name='Rigveda Wiki Mirror', version='0.0.1',
     packages=['rwm'],
     install_requires=[
-        'FlaskEx', 'uwsgi',
+        'FlaskEx', 'uwsgi', 'cython', 'gevent==1.0dev',
     ],
+    dependency_links=[
+        'https://github.com/surfly/gevent/tarball/1.0rc2'
+        '#egg=gevent-1.0dev'
+    ]
 )

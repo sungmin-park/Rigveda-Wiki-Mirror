@@ -1,6 +1,8 @@
 requirements.txt: setup
-	pip freeze | grep -v 'vamf12/Rigveda-Wiki-Mirror.git' > requirements.txt
-	echo '-e .' >> requirements.txt
+	pip freeze \
+	| sed -e '/Rigveda-Wiki-Mirror/d' -e '/gevent/d' \
+	> requirements.txt
+	cat static-requirements.txt >> requirements.txt
 
 setup:
 	python setup.py develop
